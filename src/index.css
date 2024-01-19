@@ -2,8 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.5;
+}
+
+:root {
+  --background: #181818;
+  --white: #fff;
+  --button-bg: #097fd9;
+  --button-br: 10px;
 }
 
 body {
   min-height: 100vh;
+  background-color: var(--background);
+  font-family: "Poppins", "Urbanist", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
 }
