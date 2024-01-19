@@ -10,6 +10,7 @@
 .logo {
   height: 50px;
   width: 50px;
+  cursor: pointer;
 }
 
 .headerRight {
@@ -37,7 +38,7 @@
   padding: 3px 28px;
   border-radius: var(--button-br);
   background: var(--button-bg);
-  color: #fff;
+  color: var(--white);
   text-align: center;
   font-size: 18px;
   font-weight: 600;
